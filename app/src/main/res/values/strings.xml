@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScarneDice</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Dice">
+        <item>Single Dice</item>
+        <item>Dual Dice</item>
+    </string-array>
+    <string-array name="Players">
+        <item>Single Player</item>
+        <item>Double Players</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <ListPreference
+        android:title="Dice"
+        android:key="Dice"
+        android:summary="Select No. of Dice"
+        android:entryValues="@array/Dice"
+        android:entries="@array/Dice"
+
+        />
+    <ListPreference
+        android:title="Players"
+        android:key="Players"
+        android:summary="Select No. of Players"
+        android:entryValues="@array/Players"
+        android:entries="@array/Players"
+
+        />
+
+</PreferenceScreen>
